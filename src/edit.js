@@ -26,7 +26,7 @@ export default function Edit({ attributes, setAttributes }) {
 						min={1}
 						max={6}
 						onChange={onChangeColumns}
-						value={columns}
+						value="3"
 					/>
 				</PanelBody>
 			</InspectorControls>
